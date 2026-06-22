@@ -40,9 +40,10 @@ The pipeline processes raw transactional data through four strategic phases:
 
 ## 📈 Model Architecture & Evaluation
 
-The predictive engine targets the total transaction revenue stream using a Linear Feature Distribution:
+The predictive engine targets the total transaction revenue stream using a Linear Feature Distribution.
 
-$$\text{Sales} = \beta_0 + \beta_1(\text{Unit Price}) + \beta_2(\text{Quantity}) + \beta_3(\text{Gender\_n})$$
+### Core Formulation:
+$$\text{Sales} = \beta_0 + \beta_1(\text{Unit Price}) + \beta_2(\text{Quantity}) + \beta_3(\text{Gender})$$
 
 ### Execution Parameters:
 - **Target Variable ($y$):** `Sales`
